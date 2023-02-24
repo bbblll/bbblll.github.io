@@ -1,0 +1,296 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    background-color: #17202A;
+    color: white;
+    z-index: -10;
+}
+
+.container:hover {
+    box-shadow: 0px 0px 40px black;
+    transition: 0.5s;
+}
+
+div.container p{
+    user-select: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 4rem;
+    font-family: "HelloFont ID TaoHuaShiTi";
+}
+
+div.container p1{
+    user-select: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 2rem;
+    font-family: "Century";
+}
+
+
+div.container p2{
+    font-size: 20px;
+    font-family: "Century";
+}
+
+div.container .bluebox {
+    height: 4px;
+    width: 30%;
+    background-color: #3498DB;
+    margin-bottom: 8px;
+}
+
+div.container .redbox {
+    height: 10px;
+    width: 60%;
+    background-color: #E034A8;
+}
+
+div.sign {
+    display: flex;
+    height: 60%;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+}
+
+div.sign .firstname {
+    font-family: "HelloFont ID TaoHuaShiTi";
+    font-size: 12em;
+    font-weight: 800;
+    color: #3498DB;
+    text-shadow: 0.2rem 0.2rem white;
+}
+
+div.sign .lastname {
+    font-family: "HelloFont ID TaoHuaShiTi";
+    font-size: 12em;
+    color: #E74C3C;
+    font-weight: 800;
+    margin-left: 18rem;
+    margin-top: -30px;
+    text-shadow: 0.2rem 0.2rem white;
+}
+
+li {
+    font-family: "Bell MT";
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: #ABB2B9;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 3px 0px;
+    /* background-color: #3498DB; */
+}
+
+li a:visited {
+    color: #F1C40F;
+}
+
+li a:active {
+    background-color: aliceblue;
+}
+
+.pagebottom {
+    user-select: none;
+    position: absolute;
+    background-color: skyblue;
+    color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 18px;
+    z-index: -2;
+}
+
+.avator-box {
+    padding: 10px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 300px;
+}
+
+.avator {
+    width: 300px;
+}
+
+.contents {
+    width: 84%;
+    padding: 3% 8%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.element:hover,
+tbody td:hover,
+.exp-card1:hover,
+.exp-card2:hover,
+.exp-tag:hover,
+.slide-button:hover,
+.contents p:hover {
+    transition: 0.05s;
+    scale: 1.07;
+    user-select: none;
+    z-index: 10;
+}
+
+.line {
+    width: 100%;
+    background-color: white;
+    height: 1px;
+}
+
+.xcenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-image: linear-gradient(to bottom right, #242424, #DDDDDD);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 60%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+td {
+    font-family: "Century";
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+thead td {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.exp-card1 {
+    position: relative;
+    padding: 30px;
+    margin-top: -30px;
+    width: 60%;
+    height: 260px;
+    background-color: white;
+    color: #17202A;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.exp-card2 {
+    width: 320px;
+    height: 320px;
+    background-color: #DDDDDD;
+    margin-top: -30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.exp-tag {
+    position: absolute;
+    padding: 7px 20px;
+    left: 20px;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498DB;
+    font-family: serif;
+    font-size: 2rem;
+    color: ghostwhite;
+    border-radius: 3px;
+}
+
+.contact-form {
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 140px;
+    justify-content: center;
+}
+
+input,
+textarea {
+    width: 20vw;
+    display: block;
+    padding: 7px 5px;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: #C7CDD6;
+    font-size: large;
+    font-weight: bold;
+}
+
+button.submit {
+    margin-left: 62%;
+    font-family: "Century";
+    font-size: 1rem;
+    padding: 10px 18px;
+}
+
+.ball {
+    user-select: none;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ABB2B9;
+    text-align: center;
+    line-height: 100px;
+     /* 
+    Code copied from: https://animate.style/
+    Author: Daniel Eden
+    Name: Animate BackInDown
+    Description: Create an animation that goes back and down
+    Date retrieved: December 02, 2022
+    */
+    /* Copied code starts */
+    animation: backInDown 1s;
+    /* Copied code ends */
+    font-weight: 900;
+    z-index: 10;
+}
+
+button.slide-button {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(200, 200, 200, .5);
+    color: white;
+    font-weight: 10;
+    height: 60px;
+    width: 60px;
+}
+
+.mySlides,
+.mySlides img {
+    height: 100%;
+    width: auto;
+}
